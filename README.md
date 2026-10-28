@@ -3,7 +3,7 @@ Medical Imaging AI Dashboard
 This repository contains a medical AI diagnostic dashboard powered by BiomedCLIP and Streamlit. The model is trained on the ChestMNIST dataset to analyze chest X-rays and predict the probabilities of 14 distinct medical conditions.
 
 Features
-* AI Diagnosis:** Utilizes a frozen BiomedCLIP base model with a custom PyTorch classification head.
+* AI Diagnosis: Utilizes a frozen BiomedCLIP base model with a custom PyTorch classification head.
 * Multi-Label Detection:** Screens for conditions including Pneumonia, Cardiomegaly, Effusion, Nodules, and Atelectasis.
 * Interactive UI:** A Streamlit frontend that allows users to upload patient X-ray images and instantly view diagnostic predictions.
 
