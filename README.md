@@ -1,0 +1,26 @@
+Medical Imaging AI Dashboard
+
+This repository contains a medical AI diagnostic dashboard powered by BiomedCLIP and Streamlit. The model is trained on the ChestMNIST dataset to analyze chest X-rays and predict the probabilities of 14 distinct medical conditions.
+
+Features
+* AI Diagnosis:** Utilizes a frozen BiomedCLIP base model with a custom PyTorch classification head.
+* Multi-Label Detection:** Screens for conditions including Pneumonia, Cardiomegaly, Effusion, Nodules, and Atelectasis.
+* Interactive UI:** A Streamlit frontend that allows users to upload patient X-ray images and instantly view diagnostic predictions.
+
+File Structure
+* app.py: The Streamlit web application script that handles the user interface and model inference.
+* medicalai_dashboard.py : The source code containing the PyTorch training pipeline and dataset transformations.
+* biomedclip_chest_classifier.pth: The saved PyTorch model weights generated from Google Colab.
+* requirements.txt: The deployment dependencies required for Streamlit Community Cloud.
+
+Result : 
+
+<img width="328" height="350" alt="Xary_Result" src="https://github.com/user-attachments/assets/614a7cf8-ebff-46d1-8414-86e7068f9530" />
+
+
+Deployment Instructions
+To host this application for free:
+1. Log into [Streamlit Community Cloud](https://share.streamlit.io) and connect your GitHub account.
+2. Click **Create app** and select this repository.
+3. Set the Main file path to app.py.
+4. Click Deploy!
