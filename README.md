@@ -5,7 +5,7 @@ This repository contains a medical AI diagnostic dashboard powered by BiomedCLIP
 Features
 * AI Diagnosis: Utilizes a frozen BiomedCLIP base model with a custom PyTorch classification head.
 * Multi-Label Detection: Screens for conditions including Pneumonia, Cardiomegaly, Effusion, Nodules, and Atelectasis.
-* Interactive UI:** A Streamlit frontend that allows users to upload patient X-ray images and instantly view diagnostic predictions.
+* Interactive UI: A Streamlit frontend that allows users to upload patient X-ray images and instantly view diagnostic predictions.
 
 File Structure
 * app.py: The Streamlit web application script that handles the user interface and model inference.
