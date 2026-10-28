@@ -1,0 +1,9 @@
+streamlit
+torch
+torchvision
+open_clip_torch
+Pillow
+numpy
+transformers
+huggingface_hub
+timm
