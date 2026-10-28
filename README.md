@@ -17,6 +17,26 @@ Result :
 
 <img width="328" height="350" alt="Xary_Result" src="https://github.com/user-attachments/assets/614a7cf8-ebff-46d1-8414-86e7068f9530" />
 
+AI Diagnostic Predictions 
+
+✅ Clear      | Atelectasis       : 08.20%
+✅ Clear      | Cardiomegaly      : 02.03%
+✅ Clear      | Effusion          : 08.28%
+✅ Clear      | Infiltration      : 14.29%
+✅ Clear      | Mass              : 04.17%
+✅ Clear      | Nodule            : 05.03%
+✅ Clear      | Pneumonia         : 01.08%
+✅ Clear      | Pneumothorax      : 03.70%
+✅ Clear      | Consolidation     : 03.09%
+✅ Clear      | Edema             : 01.59%
+✅ Clear      | Emphysema         : 01.74%
+✅ Clear      | Fibrosis          : 01.30%
+✅ Clear      | Pleural Thickening: 02.37%
+✅ Clear      | Hernia            : 00.48%
+
+--- Actual Ground Truth (from Doctor) ---
+Patient is completely healthy (No conditions).
+
 
 Deployment Instructions
 To host this application for free:
